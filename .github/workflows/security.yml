@@ -78,7 +78,7 @@ jobs:
 
       - name: Run TruffleHog on pull request changes
         if: github.event_name == 'pull_request'
-        uses: trufflesecurity/trufflehog@20652fbbdefffcdaa493a5bf57ab2ac6b1db715b # v3.97.1
+        uses: trufflesecurity/trufflehog@f714bf454f350590f4a24c3ddb1aef02c35bf5b6 # v3.97.5
         with:
           path: ./
           base: ${{ github.event.pull_request.base.sha }}
@@ -87,7 +87,7 @@ jobs:
 
       - name: Run TruffleHog on repository history
         if: github.event_name != 'pull_request'
-        uses: trufflesecurity/trufflehog@20652fbbdefffcdaa493a5bf57ab2ac6b1db715b # v3.97.1
+        uses: trufflesecurity/trufflehog@f714bf454f350590f4a24c3ddb1aef02c35bf5b6 # v3.97.5
         with:
           path: ./
           extra_args: --only-verified
