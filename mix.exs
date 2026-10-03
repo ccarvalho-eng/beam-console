@@ -1,8 +1,8 @@
 defmodule BeamConsole.MixProject do
   use Mix.Project
 
-  @source_url "https://github.com/ccarvalho-eng/beam_console"
-  @version "0.5.3"
+  @source_url "https://github.com/cristianodabc/beam-console"
+  @version "0.5.4"
 
   def project do
     [
