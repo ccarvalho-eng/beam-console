@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## 0.5.4 - 2026-10-03
+
+- Update the locked Phoenix, Phoenix LiveView, and Cytoscape dependencies and refresh the shipped Cytoscape bundle.
+- Update development dependencies and security workflow actions.
+- Point package metadata and repository badges to the current GitHub repository.
+
 ## 0.5.3 - 2026-08-28
 
 - Keep the selected process visible in the runtime sidebar and mark its owning application as selection context.
